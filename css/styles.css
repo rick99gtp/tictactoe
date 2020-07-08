@@ -30,7 +30,6 @@ section .game-container .cell {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  border: 1px solid #000;
   font-size: 100px;
   font-weight: bold;
 }
@@ -41,5 +40,17 @@ section .btnRestart {
   border-radius: 5px;
   padding: 10px 15px;
   margin-top: 10px;
+}
+
+.btm {
+  border-bottom: 1px solid #000;
+}
+
+.lft {
+  border-left: 1px solid #000;
+}
+
+.rght {
+  border-right: 1px solid #000;
 }
 /*# sourceMappingURL=styles.css.map */
