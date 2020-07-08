@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+}
+
+section {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+section .game-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  width: 510px;
+}
+
+section .game-container .cell {
+  width: 170px;
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  border: 1px solid #000;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+section .btnRestart {
+  background-color: blue;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
